@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Jamming</h1>
+      <h1>Jamzzz</h1>
       <SearchBar onSearch={search} />
       <div className='main'>
         <SearchResults searchResults={searchResults} onAdd={addTrack}/>
