@@ -1,9 +1,8 @@
 //Trcklist is used on playlist and searchresults
-
+import './TrackList.css';
 import Track from '../Track/Track';
 
 const TrackList = (props) => {
-    console.log(props)
     return (
         <section className='TrackList'>
             {props.tracks.map((track) => {
@@ -17,7 +16,6 @@ const TrackList = (props) => {
                     />
                 )
             })}
-
         </section>
     )
 };

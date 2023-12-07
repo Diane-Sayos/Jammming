@@ -1,7 +1,5 @@
-// const key = '7a87efabecmshe5f6c312c8f9682p19b17djsna36f84c263d0'; // rapidapi
-// const redirectUri = 'http://localhost:3000/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 const clientId = "97482171842f4516a915d6ce7a3d41dc";
-const redirectUri = 'http://localhost:3000/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'http://localhost:3000/';
 let accessToken;
 
 const Spotify = {
@@ -75,44 +73,5 @@ const Spotify = {
     });
   }
 };
-//rapid api
-// const Spotify = {
-//   //get tracks
-//   search: async(term) => {
-
-//     const url = `https://spotify23.p.rapidapi.com/search/?q=${term}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
-//     const options = {
-//       method: 'GET',
-//       headers: {
-//         'X-RapidAPI-Key': key,
-//         'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-//       }
-//     };
-
-//     try {
-// 	    const response = await fetch(url, options);
-// 	    let result = await response.json();
-//       console.log(result)
-      
-//       return result.tracks.items.map((track) => ({
-//           id: track.data.id,
-//           name: track.data.name,
-//           artist: track.data.artists.items[0].profile.name,
-//           album: track.data.albumOfTrack.name,
-//           uri: track.data.uri
-//         })
-//       )
-//     } catch (error) {
-// 	  console.error(error);
-//     }
-//   },
-//   //save playlist
-//   savePlaylist: async(name, trackUris) {
-//     if(!name || !trackUris.length){
-//       return;
-//     }
-
-//   }
-// };
 
 export default Spotify;

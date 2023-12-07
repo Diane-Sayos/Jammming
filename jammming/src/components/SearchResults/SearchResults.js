@@ -1,5 +1,7 @@
 //will output list of songs from searchbar input
 import TrackList from '../TrackList/TrackList';
+import './SearchResults.css';
+
 const SearchResults = (props) => {
     return (
         <section className='SearchResults'>

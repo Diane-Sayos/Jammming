@@ -14,7 +14,7 @@ const SearchBar = (props) => {
     },[props, input])
     return (
         <section className='SearchBar'>
-            <input placeholder='Enter a Song Title' value={input} onChange={handleChange} />
+            <input className='SearchInput' placeholder='Enter a Song Title' value={input} onChange={handleChange} />
             <button className='SearchButton' onClick={search}>SEARCH</button>
         </section>
     )

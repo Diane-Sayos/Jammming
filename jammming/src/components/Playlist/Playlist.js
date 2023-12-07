@@ -1,12 +1,13 @@
 import TrackList from '../TrackList/TrackList';
 import React, { useCallback } from 'react';
+import './Playlist.css';
 
 const Playlist = (props) => {
     const handleNameChange = useCallback((e) => {
         props.onNameChange(e.target.value)
     }, [props])
     return (
-        <section id='playlist'>
+        <section className='playlist'>
             <input onChange={handleNameChange} defaultValue={"New Playlist"} />
             <TrackList
                 tracks={props.playlistTracks}
