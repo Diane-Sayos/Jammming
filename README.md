@@ -1,6 +1,6 @@
 # Jamzzz
 
-![caption](./public/Jamzzz.mov)
+![caption](./public/Jamzzz.gif)
 
 ## Description
 
