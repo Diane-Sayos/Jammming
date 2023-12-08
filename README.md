@@ -1,6 +1,6 @@
 # Jamzzz
 
-<video src='/Jamzzz.mp4' width=180 ></video>
+![caption](Jamzzz.gif)
 
 ## Description
 
