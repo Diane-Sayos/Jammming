@@ -1,15 +1,29 @@
 # Jamzzz
 
-![caption](Jamzzz.gif)
+<details>
+    <summary>Description</summary>
+    An application that lets you search your favorite songs on Spotify, Add it to a playlist with the name of your choice, and saves it to your Spotify account.
+</details>
 
-## Description
+<details>
+    <summary>Language</summary>
+    Javascript
+</details>
 
-* An application that lets you search your favorite songs on Spotify, Add it a playlist with the name of your choice, and saves it to your Spotify account.
+<details>
+    <summary>Frameworks</summary>
+    React
+</details>
 
-### Language
 
-Javascript
+## Home Page
+![Screenshot](homepage.png)
 
-### Frameworks
+## Search Bar Functionality
+![Screenshot](search.png)
 
-React
+## Add Songs to Playlist Functionality
+![Screenshot](addplaylist.png)
+
+## Edit Playlist Title Functionality
+![Screenshot](editplaylist.png)
