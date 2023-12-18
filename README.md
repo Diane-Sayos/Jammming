@@ -6,7 +6,7 @@
 </details>
 
 <details>
-    <summary>Language</summary>
+    <summary>Tech Stack</summary>
     Javascript ||
     React ||
     HTML ||
