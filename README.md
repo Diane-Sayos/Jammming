@@ -7,13 +7,14 @@
 
 <details>
     <summary>Language</summary>
-    Javascript
+    Javascript ||
+    React ||
+    HTML ||
+    CSS ||
+    Flexbox ||
+    Spotify API
 </details>
 
-<details>
-    <summary>Frameworks</summary>
-    React
-</details>
 
 
 ## Home Page
